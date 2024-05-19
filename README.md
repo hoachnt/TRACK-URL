@@ -8,6 +8,21 @@ You need to install the following:
 - [Ngrok](https://ngrok.com/)
 - [Express.js](https://expressjs.com/)
 
+### Install Dependencies
+
+After installing the above tools, navigate to your project directory and run the following command to install project-specific dependencies:
+
+- Using Yarn:
+
+  ```bash
+  yarn install
+  ```
+
+- Using npm:
+  ```bash
+  npm install
+  ```
+
 ## Changes Made
 
 ### Web Server
@@ -22,7 +37,7 @@ You need to install the following:
 
 ### Update the Caddyfile
 
-Ensure you modify the `Caddyfile` after running the TrackUrl.sh file to reflect the new configuration settings required for `caddy`.
+Ensure you modify the `Caddyfile` to reflect the new configuration settings required for `caddy`.
 
 ---
 
